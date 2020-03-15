@@ -1,6 +1,8 @@
 ﻿#include <iostream>
 #include "elev.h"
 
+using namespace std;
+
 Elev::Elev(int floor)
 {
 	ElevMove(floor);
@@ -47,7 +49,7 @@ int main()
 	
 	for(int i=0;i<6;i++)
 	{
-		std::cout << Elevator.ElevFloor() << std::endl;
+		cout << Elevator.ElevFloor() << endl;
 	}
 	
 	
